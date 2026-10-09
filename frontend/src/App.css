@@ -143,6 +143,24 @@
   margin-top: 1rem;
 }
 
+.education {
+  margin-top: 2rem;
+  padding-left: 1.5rem;
+  border-left: 3px solid #e21833;
+  color: var(--muted);
+}
+
+.education-school {
+  font-weight: 600;
+  color: var(--text);
+}
+
+.education-date {
+  margin-top: 0.25rem;
+  font-size: 0.9rem;
+  color: #ffd200;
+}
+
 /* ---------- Projects ---------- */
 .project-list {
   list-style: none;

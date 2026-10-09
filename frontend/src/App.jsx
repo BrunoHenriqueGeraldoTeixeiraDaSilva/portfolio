@@ -6,7 +6,7 @@ const PROFILE = {
   role: 'Computer science student at the University of Maryland',
   intro:
     'I build web apps with Java, Spring Boot, PostgreSQL and React. Looking for a software, data or IT internship.',
-  email: 'brunohenriquqegtsilva@gmail.com',
+  email: 'brunohenriquegtsilva@gmail.com',
   github: 'https://github.com/BrunoHenriqueGeraldoTeixeiraDaSilva',
   linkedin: 'https://www.linkedin.com/in/bruno-silva-48109830a',
 }
@@ -18,14 +18,14 @@ const PROJECTS = [
     description:
       'A full-stack app for browsing Premier League data, backed by a relational PostgreSQL database and a Spring Boot API with a React interface.',
     stack: 'Java, Spring Boot, PostgreSQL, React',
-    href: PROFILE.github,
+    href: 'https://github.com/BrunoHenriqueGeraldoTeixeiraDaSilva/springboot-premier-league',
   },
   {
     title: 'TerpBuddy',
     description:
       'A study-partner app for UMD students, built on a Spring Boot backend with a PostgreSQL database.',
     stack: 'Java, Spring Boot, PostgreSQL',
-    href: PROFILE.github,
+    href: 'https://github.com/BrunoHenriqueGeraldoTeixeiraDaSilva/terp-buddy',
   },
 ]
 
@@ -78,6 +78,11 @@ export default function App() {
               APIs, and the logic that connects them. I speak English and
               Portuguese.
             </p>
+          </div>
+          <div className="education">
+            <p className="education-school">University of Maryland, College Park</p>
+            <p>B.S. Computer Science · Minor in General Business</p>
+            <p className="education-date">Expected Fall 2027</p>
           </div>
         </section>
 
